@@ -1,0 +1,40 @@
+[package]
+name = "poc-tokio-search"
+version = "0.1.0"
+authors = ["Richard Gomes <rgomes.info@gmail.com>"]
+
+[features]
+trace = []
+
+
+[[bin]]
+name = "clickshop-search"
+path = "src/main.rs"
+doc = false
+
+[lib]
+name = "clickshop_search"
+path = "src/lib.rs"
+
+
+[dependencies]
+bytes         = "0.4"
+base64        = "0.5.2"
+futures       = "0.1.11"
+httparse      = "1.1.2"
+#net2          = "0.2"
+
+native-tls    = "0.1"
+tokio-core    = "0.1"
+tokio-io      = "0.1"
+tokio-tls     = "0.1.2"
+
+tokio-proto   = "0.1"
+tokio-service = "0.1"
+
+tokio-minihttp = { git = "https://github.com/tokio-rs/tokio-minihttp.git" }
+
+#hyper         = { git = "https://github.com/hyperium/hyper.git" }
+#hyper-tls     = { git = "https://github.com/hyperium/hyper-tls.git" }
+
+io-dump       = { git = "https://github.com/frgomes/io-dump.git", branch = "0001-support-multiple-impls" }
