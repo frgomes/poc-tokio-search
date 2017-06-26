@@ -31,7 +31,7 @@ $ sudo apt-get install libssl-dev
 
 ```bash
 $ git clone https://github.com/frgomes/poc-tokio-search
-$ cd poc-tokio-ebay
+$ cd poc-tokio-search
 $ cargo build
 ```
 
