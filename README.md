@@ -30,7 +30,7 @@ $ sudo apt-get install libssl-dev
 ### Building
 
 ```bash
-$ git clone https://github.com/frgomes/poc-tokio-ebay
+$ git clone https://github.com/frgomes/poc-tokio-search
 $ cd poc-tokio-ebay
 $ cargo build
 ```
